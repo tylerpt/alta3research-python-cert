@@ -15,6 +15,10 @@ python3 -m pip install requests
 
 https://pypi.org/project/requests/
 
+python3 -m pip install crayons
+
+https://pypi.org/project/crayons/
+
 ## Built With
 
 * [Python](https://www.python.org/) - The coding language used
