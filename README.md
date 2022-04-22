@@ -11,12 +11,14 @@ on a live system.
 
 ### Prerequisites
 
-What things are needed to install the software and how to install them. For now, maybe copy in
-"how to install python and python3 using apt."
+python3 -m pip install requests
+
+https://pypi.org/project/requests/
 
 ## Built With
 
 * [Python](https://www.python.org/) - The coding language used
+* [TheMealDB](https://www.themealdb.com/api.php) - "Its an open online database of food meal recipes" - with an API
 
 ## Authors
 
