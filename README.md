@@ -1,13 +1,13 @@
 # alta3research-python-cert
 
-One Paragraph of your project description goes here. Describe what you're trying to do.
-What is the purpose of putting up this repo?
+This script takes a search term from the user & searches https://www.themealdb.com API for a tasty recipe
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine
-for development and testing purposes. See deployment for notes on how to deploy the project
-on a live system.
+If not done already, [requests](https://pypi.org/project/requests/) & [crayons](https://pypi.org/project/crayons/) will need to be installed
+before running this script. 
+
+It may also help to have a tasty meal in mind before getting started.
 
 ### Prerequisites
 
@@ -26,4 +26,4 @@ https://pypi.org/project/crayons/
 
 ## Authors
 
-* **Tyler Trouwborst** - *Initial work* - [YourWebsite](https://example.com/)
+* **Tyler Trouwborst** - https://github.com/tylerpt
