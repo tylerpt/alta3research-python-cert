@@ -24,9 +24,11 @@ def main():
     print("On the menu for tonight is: "+ crayons.green(meal_name, bold = True)) #printing the name of the meal in bold green using crayons
 
     meal_source = meal_tonight[0].get('strSource') #pulling the source of the meal
-    print(crayons.green("Source: ",bold = True) + meal_source) #printing the source of the meal. this usually seems to be the link to the recipe, sometimes returns blank
+    print(crayons.green("Source: ",bold = True) + meal_source) #printing the source of the meal 
+    #this usually seems to be the link to the recipe, sometimes returns blank
 
-
+    meal_instructions = meal_tonight[0].get('strInstructions')
+    print(meal_instructions) #printing instructions just as they are provided
 
 if __name__ == "__main__":
     main()
